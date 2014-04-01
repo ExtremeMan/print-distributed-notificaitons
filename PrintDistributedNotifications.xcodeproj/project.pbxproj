@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2FA1D118EA3C0D0052948F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FA1D018EA3C0D0052948F /* main.m */; };
+		CCC3FEF218D2A1CE00EC1C5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3FEF118D2A1CE00EC1C5F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCC3FEEC18D2A1CE00EC1C5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC2FA1D018EA3C0D0052948F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PrintDistributedNotifications/main.m; sourceTree = SOURCE_ROOT; };
+		CCC3FEEE18D2A1CE00EC1C5F /* PrintDistributedNotifications */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrintDistributedNotifications; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC3FEF118D2A1CE00EC1C5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC3FEEB18D2A1CE00EC1C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC3FEF218D2A1CE00EC1C5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC3FEE518D2A1CE00EC1C5F = {
+			isa = PBXGroup;
+			children = (
+				CCC3FEF318D2A1CE00EC1C5F /* PrintDistributedNotifications */,
+				CCC3FEF018D2A1CE00EC1C5F /* Frameworks */,
+				CCC3FEEF18D2A1CE00EC1C5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC3FEEF18D2A1CE00EC1C5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC3FEEE18D2A1CE00EC1C5F /* PrintDistributedNotifications */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC3FEF018D2A1CE00EC1C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC3FEF118D2A1CE00EC1C5F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC3FEF318D2A1CE00EC1C5F /* PrintDistributedNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FA1D018EA3C0D0052948F /* main.m */,
+				CCC3FEF618D2A1CE00EC1C5F /* Supporting Files */,
+			);
+			name = PrintDistributedNotifications;
+			path = PrintNotifications;
+			sourceTree = "<group>";
+		};
+		CCC3FEF618D2A1CE00EC1C5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC3FEED18D2A1CE00EC1C5F /* PrintDistributedNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC3FEFC18D2A1CE00EC1C5F /* Build configuration list for PBXNativeTarget "PrintDistributedNotifications" */;
+			buildPhases = (
+				CCC3FEEA18D2A1CE00EC1C5F /* Sources */,
+				CCC3FEEB18D2A1CE00EC1C5F /* Frameworks */,
+				CCC3FEEC18D2A1CE00EC1C5F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintDistributedNotifications;
+			productName = PrintNotifications;
+			productReference = CCC3FEEE18D2A1CE00EC1C5F /* PrintDistributedNotifications */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC3FEE618D2A1CE00EC1C5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Facebook;
+			};
+			buildConfigurationList = CCC3FEE918D2A1CE00EC1C5F /* Build configuration list for PBXProject "PrintDistributedNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCC3FEE518D2A1CE00EC1C5F;
+			productRefGroup = CCC3FEEF18D2A1CE00EC1C5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC3FEED18D2A1CE00EC1C5F /* PrintDistributedNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC3FEEA18D2A1CE00EC1C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2FA1D118EA3C0D0052948F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCC3FEFA18D2A1CE00EC1C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCC3FEFB18D2A1CE00EC1C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCC3FEFD18D2A1CE00EC1C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrintDistributedNotifications/PrintDistributedNotifications-Prefix.pch";
+				PRODUCT_NAME = PrintDistributedNotifications;
+			};
+			name = Debug;
+		};
+		CCC3FEFE18D2A1CE00EC1C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrintDistributedNotifications/PrintDistributedNotifications-Prefix.pch";
+				PRODUCT_NAME = PrintDistributedNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC3FEE918D2A1CE00EC1C5F /* Build configuration list for PBXProject "PrintDistributedNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC3FEFA18D2A1CE00EC1C5F /* Debug */,
+				CCC3FEFB18D2A1CE00EC1C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC3FEFC18D2A1CE00EC1C5F /* Build configuration list for PBXNativeTarget "PrintDistributedNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC3FEFD18D2A1CE00EC1C5F /* Debug */,
+				CCC3FEFE18D2A1CE00EC1C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC3FEE618D2A1CE00EC1C5F /* Project object */;
+}
